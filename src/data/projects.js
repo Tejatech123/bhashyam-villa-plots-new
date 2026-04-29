@@ -44,7 +44,7 @@ export const projects = [
       "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=600&q=80"
     ],
     youtubeVideoId: "IWJO9MLm05w", // Updated YouTube video ID
-    brochureUrl: "#" // Placeholder URL
+    brochureUrl: "/projects/cyber-county-v/brochure.pdf" // Updated PDF link
   },
   {
     id: 2,
