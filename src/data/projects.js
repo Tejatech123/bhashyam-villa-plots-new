@@ -43,7 +43,7 @@ export const projects = [
       "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=600&q=80",
       "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=600&q=80"
     ],
-    youtubeVideoId: "dQw4w9WgXcQ", // Placeholder YouTube video ID
+    youtubeVideoId: "IWJO9MLm05w", // Updated YouTube video ID
     brochureUrl: "#" // Placeholder URL
   },
   {
