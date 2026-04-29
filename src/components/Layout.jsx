@@ -1,3 +1,4 @@
+// Site layout with header and footer
 import { useState, useEffect } from 'react';
 import { Outlet, Link, useLocation, useNavigate } from 'react-router-dom';
 
