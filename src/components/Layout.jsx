@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Outlet, Link, useLocation, useNavigate } from 'react-router-dom';
+import logo from '../assets/logo.png';
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -28,8 +29,8 @@ function Header() {
   return (
     <header className={`header ${isScrolled ? 'glass' : ''}`}>
       <div className="container header-content">
-        <Link to="/" className="logo">
-          Bhashyamvillaplots
+        <Link to="/" className="logo" style={{ display: 'flex', alignItems: 'center' }}>
+          <img src={logo} alt="Bhashyamvillaplots Logo" style={{ height: '50px' }} />
         </Link>
         <nav className="nav-links">
           <a href="#home" onClick={(e) => handleNavClick(e, 'home')}>Home</a>
@@ -51,10 +52,7 @@ function Footer() {
       <div className="container footer-grid">
         <div className="footer-col">
           <div className="footer-brand">
-            <div className="footer-brand-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-            </div>
-            <h3>BHASHYAM<span>VILLAPLOTS</span></h3>
+            <img src={logo} alt="Bhashyamvillaplots Logo" style={{ height: '60px', marginBottom: '1rem' }} />
           </div>
           <p className="footer-col-desc">
             Bhashyamvillaplots provides premier residential property development services in Hyderabad — government-approved plots from 67 to 400 square yards in prime locations throughout the city.
