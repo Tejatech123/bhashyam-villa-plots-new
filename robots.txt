@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tejatech123.github.io/bhashyam-villa-plots-new/sitemap.xml
