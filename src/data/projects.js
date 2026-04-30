@@ -45,7 +45,9 @@ export const projects = [
       "https://i9b7bbll7q.ufs.sh/f/t6a9F4npAKzqoKD182ZKD8JYW4AQCLSfbtVdk2elu9ExPGNr"
     ],
     youtubeVideoId: "IWJO9MLm05w", // Updated YouTube video ID
-    brochureUrl: "/projects/cyber-county-v/brochure.pdf" // Updated PDF link
+    brochureUrl: "/projects/cyber-county-v/brochure.pdf", // Updated PDF link
+    hmdaLayoutUrl: "https://i9b7bbll7q.ufs.sh/f/t6a9F4npAKzqcLj9yVHnYkbRgVxHpj12urM5FfeQdWELiBCT", // HMDA Layout URL
+    skillCityMapUrl: "https://i9b7bbll7q.ufs.sh/f/t6a9F4npAKzqPHiOlM0L9od3HlNKfz4iGgOZyMcbwpe6JaYk" // Skillcity Map URL
   },
   {
     id: 2,
