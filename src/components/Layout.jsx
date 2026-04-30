@@ -30,7 +30,7 @@ function Header() {
     <header className={`header ${isScrolled ? 'glass' : ''}`}>
       <div className="container header-content">
         <Link to="/" className="logo" style={{ display: 'flex', alignItems: 'center' }}>
-          <img src="/logo.png" alt="Bhashyamvillaplots Logo" style={{ height: '50px' }} />
+          <img src="/logo.png" alt="bhashyamvillaplots Logo" style={{ height: '50px' }} />
         </Link>
         <nav className="nav-links">
           <a href="#home" onClick={(e) => handleNavClick(e, 'home')}>Home</a>
@@ -52,10 +52,10 @@ function Footer() {
       <div className="container footer-grid">
         <div className="footer-col">
           <div className="footer-brand">
-            <img src="/logo.png" alt="Bhashyamvillaplots Logo" style={{ height: '60px', marginBottom: '1rem' }} />
+            <img src="/logo.png" alt="bhashyamvillaplots Logo" style={{ height: '60px', marginBottom: '1rem' }} />
           </div>
           <p className="footer-col-desc">
-            Bhashyamvillaplots provides premier residential property development services in Hyderabad — government-approved plots from 67 to 400 square yards in prime locations throughout the city.
+            bhashyamvillaplots provides premier residential property development services in Hyderabad — government-approved plots from 67 to 400 square yards in prime locations throughout the city.
           </p>
           <div className="footer-socials">
             <a href="#" className="footer-social-btn">
@@ -93,7 +93,7 @@ function Footer() {
       
       <div className="footer-bottom">
         <div className="container">
-          Copyrights © {new Date().getFullYear()} Bhashyamvillaplots. All Rights Reserved.
+          Copyrights © {new Date().getFullYear()} bhashyamvillaplots. All Rights Reserved.
         </div>
       </div>
     </footer>

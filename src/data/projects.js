@@ -5,7 +5,7 @@ export const projects = [
     location: "Mangalpally, Adibatla",
     type: "HMDA & RERA Approved",
     image: "https://i9b7bbll7q.ufs.sh/f/t6a9F4npAKzq2viu7OCX1nQPF7TB4NDLZKxdg6Rk5rsOAtmM",
-    description: "BHASHYAM DEVELOPERS Presents CYBER COUNTY - V. A Premium Investment Destination at Mangalpally, ADIBATLA NEAR BY TCS, FOXCONN, RANGA REDDY COLLECTORATE. Located just minutes from the Outer Ring Road & Adibatla, CYBER COUNTY - V offers world-class infrastructure and unmatched investment opportunities. This HMDA-approved project on Sagar Highway is the perfect choice for those looking to invest in the right place at the right time.",
+    description: "bhashyamvillaplots presents CYBER COUNTY - V. A Premium Investment Destination at Mangalpally, ADIBATLA NEAR BY TCS, FOXCONN, RANGA REDDY COLLECTORATE. Located just minutes from the Outer Ring Road & Adibatla, CYBER COUNTY - V offers world-class infrastructure and unmatched investment opportunities. This HMDA-approved project on Sagar Highway is the perfect choice for those looking to invest in the right place at the right time.",
     price: "₹26,000/- per sq. yard (Negotiable)",
     amenities: [
       "HMDA Approved Layout",

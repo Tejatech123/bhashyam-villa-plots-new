@@ -7,7 +7,7 @@ function Hero() {
     <section id="home" className="hero text-center">
       <div className="container hero-content animate-fade-in">
         <h1>Premium Villa Plots in Hyderabad</h1>
-        <p>HMDA, DTCP & RERA Approved Layouts. Invest in your future with Bhashyamvillaplots, offering the finest gated community plot ventures with top-notch amenities.</p>
+        <p>HMDA, DTCP & RERA Approved Layouts. Invest in your future with bhashyamvillaplots, offering the finest gated community plot ventures with top-notch amenities.</p>
         <div className="hero-buttons">
           <button onClick={() => document.getElementById('ventures').scrollIntoView({ behavior: 'smooth' })}>
             View Projects
@@ -94,7 +94,7 @@ function Contact() {
           <span className="contact-label">Get in Touch</span>
           <h2>Book Your Plot Today</h2>
           <p>
-            Bhashyamvillaplots offers government-approved plots in prime Hyderabad locations. Reach out and we'll help you choose the right venture.
+            bhashyamvillaplots offers government-approved plots in prime Hyderabad locations. Reach out and we'll help you choose the right venture.
           </p>
           
           <div className="contact-item">
