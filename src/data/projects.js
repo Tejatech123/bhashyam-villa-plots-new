@@ -38,10 +38,11 @@ export const projects = [
       "Surrounded by Residential Townships & Engineering Colleges"
     ],
     photos: [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=600&q=80"
+      "https://i9b7bbll7q.ufs.sh/f/t6a9F4npAKzqHGwSlF5pSMQBVP4Wln8wK0rzZ3CEhAXyDJut",
+      "https://i9b7bbll7q.ufs.sh/f/t6a9F4npAKzqggHbudVrQpaSflE4xKgvW16sqecBUCTybRHJ",
+      "https://i9b7bbll7q.ufs.sh/f/t6a9F4npAKzqsykzG7SIymPRqJeag7QMnhNIoCSf9v64Licd",
+      "https://i9b7bbll7q.ufs.sh/f/t6a9F4npAKzqd59GnibDBLNsUo5MZQcOwpI9CmauHTrFWyif",
+      "https://i9b7bbll7q.ufs.sh/f/t6a9F4npAKzqoKD182ZKD8JYW4AQCLSfbtVdk2elu9ExPGNr"
     ],
     youtubeVideoId: "IWJO9MLm05w", // Updated YouTube video ID
     brochureUrl: "/projects/cyber-county-v/brochure.pdf" // Updated PDF link
