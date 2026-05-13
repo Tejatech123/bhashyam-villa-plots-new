@@ -1,16 +1,17 @@
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import { projects } from '../data/projects';
+import Amenities from '../components/Amenities';
 
 function Hero() {
   return (
     <section id="home" className="hero text-center">
       <div className="container hero-content animate-fade-in">
         <h1>Premium Villa Plots in Hyderabad</h1>
-        <p>HMDA, DTCP & RERA Approved Layouts. Invest in your future with bhashyamvillaplots, offering the finest gated community plot ventures with top-notch amenities.</p>
+        <p>HMDA & RERA Approved Layouts. Invest in your future with Cyber County - V, offering the finest gated community plot ventures with top-notch amenities.</p>
         <div className="hero-buttons">
           <button onClick={() => document.getElementById('ventures').scrollIntoView({ behavior: 'smooth' })}>
-            View Projects
+            View Project
           </button>
           <button className="btn-outline" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>
             Contact Us
@@ -27,13 +28,13 @@ function Ventures() {
   return (
     <section id="ventures" className="section container">
       <div className="text-center">
-        <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Our Premium <span className="text-primary">Ventures</span></h2>
-        <p className="text-muted">Explore our handpicked gated community layouts with world-class amenities.</p>
+        <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Our Featured <span className="text-primary">Venture</span></h2>
+        <p className="text-muted">Explore our premium gated community layout with world-class amenities.</p>
       </div>
       
-      <div className="ventures-grid">
+      <div className="ventures-grid" style={{ display: 'flex', justifyContent: 'center' }}>
         {projects.map(p => (
-          <div key={p.id} className="venture-card" onClick={() => navigate(`/project/${p.id}`)} style={{ cursor: 'pointer' }}>
+          <div key={p.id} className="venture-card" onClick={() => navigate(`/project/${p.id}`)} style={{ cursor: 'pointer', maxWidth: '500px', width: '100%' }}>
             <img src={p.image} alt={p.title} className="venture-image" />
             <div className="venture-info">
               <h3>{p.title}</h3>
@@ -187,6 +188,7 @@ export default function Home() {
     <>
       <Hero />
       <Ventures />
+      <Amenities />
       <About />
       <Contact />
     </>

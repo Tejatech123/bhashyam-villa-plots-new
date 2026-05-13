@@ -34,7 +34,7 @@ function Header() {
         </Link>
         <nav className="nav-links">
           <a href="#home" onClick={(e) => handleNavClick(e, 'home')}>Home</a>
-          <a href="#ventures" onClick={(e) => handleNavClick(e, 'ventures')}>Projects</a>
+          <a href="#ventures" onClick={(e) => handleNavClick(e, 'ventures')}>Project</a>
           <a href="#about" onClick={(e) => handleNavClick(e, 'about')}>About</a>
           <a href="#contact" onClick={(e) => handleNavClick(e, 'contact')}>Contact</a>
         </nav>
@@ -78,7 +78,7 @@ function Footer() {
           <ul className="footer-links">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/#about">About us</Link></li>
-            <li><Link to="/#ventures">Projects</Link></li>
+            <li><Link to="/#ventures">Project</Link></li>
             <li><a href="#">Privacy Policy</a></li>
           </ul>
         </div>
