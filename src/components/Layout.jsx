@@ -86,7 +86,7 @@ function Footer() {
         <div className="footer-col">
           <h4>ADDRESS</h4>
           <p className="footer-address">
-            Hyderabad, Uppal 123456 PIN code
+            107, Madhapur Rd, Guttala_Begumpet, Kavuri Hills, Jubilee Hills, Madhapur, Hyderabad, Telangana 500033
           </p>
         </div>
       </div>

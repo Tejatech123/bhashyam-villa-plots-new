@@ -119,7 +119,7 @@ function Contact() {
             <div className="contact-icon-wrapper">📍</div>
             <div className="contact-item-details">
               <h4>Office</h4>
-              <p>Hyderabad, Uppal 123456 PIN code</p>
+              <p>107, Madhapur Rd, Guttala_Begumpet, Kavuri Hills, Jubilee Hills, Madhapur, Hyderabad, Telangana 500033</p>
             </div>
           </div>
         </div>
