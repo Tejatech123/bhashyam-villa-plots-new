@@ -1,10 +1,19 @@
 import { useParams, Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import { projects } from '../data/projects';
+import { useSEO } from '../hooks/useSEO';
 
 export default function ProjectDetail() {
   const { id } = useParams();
   const project = projects.find(p => p.id === parseInt(id));
+
+  useSEO({
+    title: project ? `${project.title} Adibatla | Premium HMDA & RERA Approved Villa Plots Hyderabad` : 'Project Details | Bhashyam Villa Plots',
+    description: project ? `Invest in ${project.title} at ${project.location} near ORR by Bhashyam. Premium gated community plots with clear titles, 50% bank loan, and modern infrastructure.` : 'Explore premium HMDA & RERA approved gated community villa plots in Hyderabad by Bhashyam.',
+    canonicalUrl: project ? `https://bhashyamvillaplots.com/project/${project.id}` : 'https://bhashyamvillaplots.com/',
+    ogTitle: project ? `${project.title} Adibatla | HMDA & RERA Approved Villa Plots` : 'Project Details',
+    ogDescription: project ? `Invest in ${project.title} at ${project.location} near ORR by Bhashyam. Gated community plots with modern infrastructure.` : 'Explore premium villa plots in Hyderabad.'
+  });
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -184,7 +193,7 @@ export default function ProjectDetail() {
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem' }}>
                   {project.photos.map((photo, index) => (
                     <div key={index} style={{ borderRadius: '12px', overflow: 'hidden', height: '200px', boxShadow: '0 5px 15px rgba(0,0,0,0.1)' }}>
-                      <img src={photo} alt={`Gallery ${index + 1}`} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                      <img src={photo} alt={`${project.title} Gated Community Layout Photo ${index + 1}`} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                     </div>
                   ))}
                 </div>

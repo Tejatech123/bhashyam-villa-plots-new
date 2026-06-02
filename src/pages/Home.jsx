@@ -2,13 +2,14 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import { projects } from '../data/projects';
 import Amenities from '../components/Amenities';
+import { useSEO } from '../hooks/useSEO';
 
 function Hero() {
   return (
     <section id="home" className="hero text-center">
       <div className="container hero-content animate-fade-in">
-        <h1>Premium Villa Plots in Hyderabad</h1>
-        <p>HMDA & RERA Approved Layouts. Invest in your future with Cyber County - V, offering the finest gated community plot ventures with top-notch amenities.</p>
+        <h1>HMDA & RERA Approved Premium Villa Plots in Hyderabad</h1>
+        <p>Welcome to Bhashyam Villa Plots, offering premium gated community layouts near Adibatla, Kothur, Shadnagar, and the Outer Ring Road (ORR). Secure your Hyderabad Real Estate Investment with 100% clear titles, outstanding ROI, and world-class amenities.</p>
         <div className="hero-buttons">
           <button onClick={() => document.getElementById('ventures').scrollIntoView({ behavior: 'smooth' })}>
             View Project
@@ -28,8 +29,8 @@ function Ventures() {
   return (
     <section id="ventures" className="section container">
       <div className="text-center">
-        <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Our Featured <span className="text-primary">Venture</span></h2>
-        <p className="text-muted">Explore our premium gated community layout with world-class amenities.</p>
+        <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Premium Gated Community <span className="text-primary">Villa Plots</span></h2>
+        <p className="text-muted">Explore top-tier HMDA approved villa plots in Hyderabad, featuring premium developments with high investment potential near ORR, Adibatla, Shadnagar, and Kothur.</p>
       </div>
       
       <div className="ventures-grid" style={{ display: 'flex', justifyContent: 'center' }}>
@@ -57,17 +58,17 @@ function Ventures() {
 
 function About() {
   const features = [
-    { icon: "📜", title: "100% Clear Title", desc: "All our projects come with clear documentation and legal approvals." },
-    { icon: "🛣️", title: "Prime Locations", desc: "Strategically located near highways and upcoming development zones." },
-    { icon: "🌳", title: "World Class Amenities", desc: "Parks, clubhouses, underground drainage, and electricity." },
-    { icon: "💰", title: "High ROI", desc: "Excellent appreciation potential for your investment." }
+    { icon: "📜", title: "100% Clear Title", desc: "All our Bhashyam Villa Plots come with 100% clear titles, RERA approvals, and perfect legal security." },
+    { icon: "🛣️", title: "Prime Locations", desc: "Premium villa plots near ORR, Adibatla, Kothur, and Shadnagar in rapid development corridors." },
+    { icon: "🌳", title: "World Class Amenities", desc: "Fully-developed layouts with BT roads, park, overhead tank, compound walls, and electricity." },
+    { icon: "💰", title: "High ROI", desc: "Outstanding appreciation potential for your ultimate Hyderabad Real Estate Investment." }
   ];
 
   return (
     <section id="about" className="section" style={{ backgroundColor: 'var(--bg-card)' }}>
       <div className="container text-center">
-        <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Why Choose Us?</h2>
-        <p className="text-muted">Over 15+ years of trust in building communities.</p>
+        <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Why Choose Bhashyam Villa Plots?</h2>
+        <p className="text-muted">Over 15+ years of trust in building high-ROI gated community plot developments in Hyderabad.</p>
         
         <div className="features-grid">
           {features.map((f, i) => (
@@ -95,7 +96,7 @@ function Contact() {
           <span className="contact-label">Get in Touch</span>
           <h2>Book Your Plot Today</h2>
           <p>
-            bhashyamvillaplots offers government-approved plots in prime Hyderabad locations. Reach out and we'll help you choose the right venture.
+            Bhashyam Villa Plots offers prime government-approved, HMDA approved villa plots and RERA approved villa plots in Hyderabad's best-connected locations. Reach out today and start your investment path.
           </p>
           
           <div className="contact-item">
@@ -170,6 +171,14 @@ function Contact() {
 
 export default function Home() {
   const { hash } = useLocation();
+
+  useSEO({
+    title: "Bhashyam Villa Plots Hyderabad | HMDA & RERA Approved Premium Villa Plots",
+    description: "Explore premium HMDA & RERA approved villa plots in Hyderabad by Bhashyam. Discover projects near Adibatla, Kothur, Shadnagar and ORR with clear titles, modern infrastructure and strong investment potential.",
+    canonicalUrl: "https://bhashyamvillaplots.com/",
+    ogTitle: "Bhashyam Villa Plots Hyderabad | HMDA & RERA Approved Premium Villa Plots",
+    ogDescription: "Explore premium HMDA & RERA approved villa plots in Hyderabad by Bhashyam. Discover projects near Adibatla, Kothur, Shadnagar and ORR with clear titles, modern infrastructure and strong investment potential."
+  });
 
   useEffect(() => {
     window.scrollTo(0, 0);
