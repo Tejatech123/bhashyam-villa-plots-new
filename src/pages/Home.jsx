@@ -111,7 +111,7 @@ function Contact() {
             <div className="contact-icon-wrapper">✉️</div>
             <div className="contact-item-details">
               <h4>Email</h4>
-              <a href="mailto:info@bhashyamvillaplots.com">info@bhashyamvillaplots.com</a>
+              <a href="mailto:ravibhashyam1@gmail.com">ravibhashyam1@gmail.com</a>
             </div>
           </div>
           
