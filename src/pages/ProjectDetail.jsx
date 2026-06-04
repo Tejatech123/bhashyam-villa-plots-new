@@ -10,7 +10,7 @@ export default function ProjectDetail() {
   useSEO({
     title: project ? `${project.title} Adibatla | Premium HMDA & RERA Approved Villa Plots Hyderabad` : 'Project Details | Bhashyam Villa Plots',
     description: project ? `Invest in ${project.title} at ${project.location} near ORR by Bhashyam. Premium gated community plots with clear titles, 50% bank loan, and modern infrastructure.` : 'Explore premium HMDA & RERA approved gated community villa plots in Hyderabad by Bhashyam.',
-    canonicalUrl: project ? `https://bhashyamvillaplots.com/project/${project.id}` : 'https://bhashyamvillaplots.com/',
+    canonicalUrl: project ? `https://www.bhashyamvillaplots.com/project/${project.id}` : 'https://www.bhashyamvillaplots.com/',
     ogTitle: project ? `${project.title} Adibatla | HMDA & RERA Approved Villa Plots` : 'Project Details',
     ogDescription: project ? `Invest in ${project.title} at ${project.location} near ORR by Bhashyam. Gated community plots with modern infrastructure.` : 'Explore premium villa plots in Hyderabad.'
   });

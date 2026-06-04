@@ -175,7 +175,7 @@ export default function Home() {
   useSEO({
     title: "Bhashyam Villa Plots Hyderabad | HMDA & RERA Approved Premium Villa Plots",
     description: "Explore premium HMDA & RERA approved villa plots in Hyderabad by Bhashyam. Discover projects near Adibatla, Kothur, Shadnagar and ORR with clear titles, modern infrastructure and strong investment potential.",
-    canonicalUrl: "https://bhashyamvillaplots.com/",
+    canonicalUrl: "https://www.bhashyamvillaplots.com/",
     ogTitle: "Bhashyam Villa Plots Hyderabad | HMDA & RERA Approved Premium Villa Plots",
     ogDescription: "Explore premium HMDA & RERA approved villa plots in Hyderabad by Bhashyam. Discover projects near Adibatla, Kothur, Shadnagar and ORR with clear titles, modern infrastructure and strong investment potential."
   });
