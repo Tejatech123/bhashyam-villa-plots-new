@@ -37,6 +37,7 @@ function Header() {
           <a href="#ventures" onClick={(e) => handleNavClick(e, 'ventures')}>Project</a>
           <a href="#about" onClick={(e) => handleNavClick(e, 'about')}>About</a>
           <a href="#contact" onClick={(e) => handleNavClick(e, 'contact')}>Contact</a>
+          <Link to="/blog" className={location.pathname.startsWith('/blog') ? 'active' : ''}>Blog</Link>
         </nav>
         <button onClick={(e) => handleNavClick(e, 'contact')}>
           Enquire Now
@@ -79,6 +80,7 @@ function Footer() {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/#about">About us</Link></li>
             <li><Link to="/#ventures">Project</Link></li>
+            <li><Link to="/blog">Blog</Link></li>
             <li><a href="#">Privacy Policy</a></li>
           </ul>
         </div>

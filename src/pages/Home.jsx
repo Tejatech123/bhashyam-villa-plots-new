@@ -56,28 +56,34 @@ function Ventures() {
   );
 }
 
-function About() {
-  const features = [
-    { icon: "📜", title: "100% Clear Title", desc: "All our Bhashyam Villa Plots come with 100% clear titles, RERA approvals, and perfect legal security." },
-    { icon: "🛣️", title: "Prime Locations", desc: "Premium villa plots near ORR, Adibatla, Kothur, and Shadnagar in rapid development corridors." },
-    { icon: "🌳", title: "World Class Amenities", desc: "Fully-developed layouts with BT roads, park, overhead tank, compound walls, and electricity." },
-    { icon: "💰", title: "High ROI", desc: "Outstanding appreciation potential for your ultimate Hyderabad Real Estate Investment." }
-  ];
 
+function About() {
   return (
-    <section id="about" className="section" style={{ backgroundColor: 'var(--bg-card)' }}>
-      <div className="container text-center">
-        <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Why Choose Bhashyam Villa Plots?</h2>
-        <p className="text-muted">Over 15+ years of trust in building high-ROI gated community plot developments in Hyderabad.</p>
-        
-        <div className="features-grid">
-          {features.map((f, i) => (
-            <div key={i} className="feature-card">
-              <div className="feature-icon">{f.icon}</div>
-              <h3>{f.title}</h3>
-              <p style={{ color: 'var(--text-muted)', marginTop: '0.5rem' }}>{f.desc}</p>
-            </div>
-          ))}
+    <section id="about" className="about-section">
+      <div className="container about-grid">
+        <div className="about-image-wrapper">
+          <img 
+            src="https://i9b7bbll7q.ufs.sh/f/t6a9F4npAKzqtSd2NbnpAKzqamf5ZUR3oFDIJ1BhVQedMlir" 
+            alt="About Bhashyam Villa Plots" 
+            className="about-image" 
+          />
+        </div>
+        <div className="about-content">
+          <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--text-color)', fontWeight: '800' }}>About Bhashyamvillaplots</h2>
+          <p>
+            Bhashyamvillaplots is a trusted and rapidly growing real estate brand in Hyderabad, recognized for offering premium HMDA-approved villa plots and open plots in strategically chosen locations. Built on the principles of quality, transparency, and customer-centric service, we are dedicated to helping individuals and families make safe, profitable, and future-ready real estate investments.
+          </p>
+          
+          <h3 style={{ fontSize: '1.75rem', marginTop: '2rem', marginBottom: '1rem', color: 'var(--text-color)', fontWeight: '700' }}>Our Story</h3>
+          <p>
+            Founded with a vision to transform land investment, Bhashyamvillaplots has been committed to developing legally compliant, thoughtfully planned, and value-driven residential layouts. Our focus has always been on providing customers with investment opportunities that offer both immediate confidence and long-term appreciation.
+          </p>
+          <p>
+            Over the years, we have earned the trust of homebuyers and investors by delivering projects in high-growth locations with excellent connectivity and strong development potential. From premium open plots near Adibatla to HMDA-approved villa plots across Hyderabad's emerging investment corridors, we continue to help our customers build a secure future through smart real estate choices.
+          </p>
+          <p style={{ marginBottom: 0 }}>
+            At Bhashyamvillaplots, every project reflects our commitment to integrity, quality, and lasting value, making us a preferred choice for those seeking reliable property investments in Hyderabad.
+          </p>
         </div>
       </div>
     </section>
